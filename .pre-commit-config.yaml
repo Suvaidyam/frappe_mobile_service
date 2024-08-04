@@ -8,7 +8,7 @@ repos:
     rev: v4.3.0
     hooks:
       - id: trailing-whitespace
-        files: "mobile_service.*"
+        files: "frappe_mobile_service.*"
         exclude: ".*json$|.*txt$|.*csv|.*md|.*svg"
       - id: check-yaml
       - id: check-merge-conflict
@@ -36,11 +36,11 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                mobile_service/public/dist/.*|
+                frappe_mobile_service/public/dist/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                mobile_service/templates/includes/.*|
-                mobile_service/public/js/lib/.*
+                frappe_mobile_service/templates/includes/.*|
+                frappe_mobile_service/public/js/lib/.*
             )$
 
 
@@ -53,12 +53,12 @@ repos:
         # Ignore any files that might contain jinja / bundles
         exclude: |
             (?x)^(
-                mobile_service/public/dist/.*|
+                frappe_mobile_service/public/dist/.*|
                 cypress/.*|
                 .*node_modules.*|
                 .*boilerplate.*|
-                mobile_service/templates/includes/.*|
-                mobile_service/public/js/lib/.*
+                frappe_mobile_service/templates/includes/.*|
+                frappe_mobile_service/public/js/lib/.*
             )$
 
 ci:
