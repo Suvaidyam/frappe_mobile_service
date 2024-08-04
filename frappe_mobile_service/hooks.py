@@ -1,5 +1,5 @@
-app_name = "mobile_service"
-app_title = "Mobile Service"
+app_name = "frappe_mobile_service"
+app_title = "Frappe Mobile Service"
 app_publisher = "Suvaidyam"
 app_description = "This service will have custom APIs and to communicate with mobile application."
 app_email = "tech@suvaidyam.com"
